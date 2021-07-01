@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f6f6f6;
+}
+
+div.custom-collapse {
+    width: 33%;
+}
+
+.form-control {
+    border-radius: 0 !important;
+}
+
+#htmlInput:focus,
+#cssInput:focus,
+#javascriptInput:focus {
+    box-shadow: 1px 1px 4px gray;
+    border-color: #f4f4f4;
+
+}
+
+textarea {
+    height: calc(100vh - 150px);
+    resize: none;
+    width: 30rem;
+    background: #f4f4f9;
+    text-align: left;
+}
+
+@media (min-width: 250px) and (max-width: 599px) {
+    div.heading {
+        text-align: center;
+    }
+
+    div.custom-collapse {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 989px) {
+    div.heading {
+        text-align: center;
+    }
+
+    div.custom-collapse {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}
